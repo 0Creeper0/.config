@@ -3,8 +3,6 @@
 # Change backlight
 
 now=`pkexec mate-power-backlight-helper --get-brightness`
-echo $now
-echo $1
 
 if [ $1 == "up" ]
 then
