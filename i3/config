@@ -43,9 +43,6 @@ exec_always --no-startup-id fcitx
 exec_always --no-startup-id ~/.config/i3/tap_to_click.sh
 exec_always --no-startup-id ~/.config/i3/natural_scrolling.sh
 
-# my own script
-exec_always --no-startup-id ~/docker-wine-linux/clear.sh
-
 #===================================keybinding====================================
 # capslock&numlock status in i3blocks
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
