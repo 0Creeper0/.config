@@ -37,8 +37,9 @@ exec --no-startup-id xset dpms 6000
 exec --no-startup-id nm-applet
 
 #exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id mate-power-manager
 exec_always --no-startup-id variety 
-exec_always --no-startup-id compton -b
+exec_always --no-startup-id picom -b
 exec_always --no-startup-id fcitx
 exec_always --no-startup-id ~/.config/i3/tap_to_click.sh
 exec_always --no-startup-id ~/.config/i3/natural_scrolling.sh

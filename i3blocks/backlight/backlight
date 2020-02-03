@@ -1,0 +1,9 @@
+#!/bin/bash
+
+max=`pkexec  mate-power-backlight-helper --get-max-brightness`
+
+now=`pkexec  mate-power-backlight-helper --get-brightness`
+
+percent=`echo "scale=2;$now/$max" | bc`
+
+echo "$percent*100" | bc | awk -F. '{print "Light "$1"%"}'
