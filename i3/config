@@ -221,11 +221,11 @@ mode "resize" {
 bindsym $mod+p mode "resize"
 
 
-set $bg-color 				#2f343fcc
-set $inactive-bg-color 		#2f343fcc
-set $text-color 			#f3f4f5cc
-set $inactive-text-color	#676E7Dcc
-set $urgent-bg-color 		#E53935cc
+set $bg-color 				#2f343fbb
+set $inactive-bg-color 		#2f343fbb
+set $text-color 			#f3f4f5bb
+set $inactive-text-color	#676E7Dbb
+set $urgent-bg-color 		#E53935bb
 
 # window colors
 #						border				background			text				indicator
@@ -256,7 +256,7 @@ bar {
 bar {
         status_command i3blocks
 		workspace_buttons no
-		font pango:Awesome 12
+		font pango:Awesome 10
 		position bottom
 		colors {
 				background $bg-color
