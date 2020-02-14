@@ -244,6 +244,7 @@ hide_edge_borders smart_no_gaps
 # finds out, if available)
 bar {
 #status_command i3status -c ~/.config/i3status/i3status.conf	
+		# opacity
 		i3bar_command i3bar -t
 		position top
 		height 30
@@ -258,6 +259,7 @@ bar {
 }
 
 bar {
+		# opacity
 		i3bar_command i3bar -t
         status_command i3blocks 
 		height 30
