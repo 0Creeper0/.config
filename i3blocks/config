@@ -29,18 +29,17 @@ command=~/.config/i3blocks/$BLOCK_NAME/$BLOCK_NAME
 separator_block_width=15
 markup=none
 
-# Volume indicator
-#
-# The first parameter sets the step (and units to display)
-# The second parameter overrides the mixer selection
-# See the script for details.
-
 [backlight]
 interval=1
 label=
 #label=
 label=
 
+# Volume indicator
+#
+# The first parameter sets the step (and units to display)
+# The second parameter overrides the mixer selection
+# See the script for details.
 [volume]
 label=♪
 label=
@@ -63,6 +62,17 @@ interval=30
 # instance=swap
 # separator=false
 # interval=30
+
+# CPU usage
+# mpstat command
+[cpu_usage]
+interval=10
+#LABEL=
+label=
+#min_width=CPU: 100.00%
+#T_WARN=50
+#T_CRIT=80
+#DECIMALS=2
 
 # Disk usage
 #
